@@ -1,0 +1,138 @@
+2017-02-20 01:43:41:489 - info: [Appium] Welcome to Appium v1.6.3 (REV 21a869a749aea5b2b39a1f617d737370d6254563)
+2017-02-20 01:43:41:492 - info: [Appium] Non-default server args:
+2017-02-20 01:43:41:494 - info: [Appium]   log: 'argument'
+2017-02-20 01:43:41:543 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2017-02-20 01:43:55:433 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/automacao/Downloads/Neon.ipa","noReset":"True","newCommandTimeout":1000000,"platformVersion":"10.2","automationName":"XCUITest","platformName":"iOS","udid":"08aa0d68a3cefcc79a4c60f81e19d63a19672ade","deviceName":"iPhone 6"}}
+2017-02-20 01:43:55:438 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/automacao/Downloads/Neon.ipa","noReset":"True","newCommandTimeout":1000000,"platformVersion":"10.2","automationName":"XCUITest","platformName":"iOS","udid":"08aa0d68a3cefcc79a4c60f81e19d63a19672ade","deviceName":"iPhone 6"},null,null,null,null]
+2017-02-20 01:43:55:444 - info: [Appium] Creating new XCUITestDriver session
+2017-02-20 01:43:55:444 - info: [Appium] Capabilities:
+2017-02-20 01:43:55:447 - info: [Appium]   app: '/Users/automacao/Downloads/Neon.ipa'
+2017-02-20 01:43:55:447 - info: [Appium]   noReset: 'True'
+2017-02-20 01:43:55:447 - info: [Appium]   newCommandTimeout: 1000000
+2017-02-20 01:43:55:448 - info: [Appium]   platformVersion: '10.2'
+2017-02-20 01:43:55:448 - info: [Appium]   automationName: 'XCUITest'
+2017-02-20 01:43:55:448 - info: [Appium]   platformName: 'iOS'
+2017-02-20 01:43:55:449 - info: [Appium]   udid: '08aa0d68a3cefcc79a4c60f81e19d63a19672ade'
+2017-02-20 01:43:55:449 - info: [Appium]   deviceName: 'iPhone 6'
+2017-02-20 01:43:55:453 - info: [debug] [XCUITest] XCUITestDriver version: 2.4.2
+2017-02-20 01:43:55:457 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2017-02-20 01:43:55:465 - info: [BaseDriver] Session created with session id: 14508eb1-0292-40ce-9c9c-24dee955034e
+2017-02-20 01:43:55:542 - info: [debug] [XCUITest] Xcode version set to '8.2.1'
+2017-02-20 01:43:55:551 - info: [debug] [XCUITest] iOS SDK Version set to '10.2'
+2017-02-20 01:43:55:665 - info: [debug] [XCUITest] Available devices: 08aa0d68a3cefcc79a4c60f81e19d63a19672ade
+2017-02-20 01:43:55:666 - info: [debug] [XCUITest] Creating iDevice object with udid 08aa0d68a3cefcc79a4c60f81e19d63a19672ade
+2017-02-20 01:43:55:669 - info: [XCUITest] Determining device to run tests on: udid: '08aa0d68a3cefcc79a4c60f81e19d63a19672ade', real device: true
+2017-02-20 01:43:55:672 - info: [BaseDriver] Using local app '/Users/automacao/Downloads/Neon.ipa'
+2017-02-20 01:43:55:673 - info: [debug] [BaseDriver] Copying local zip to tmp dir
+2017-02-20 01:43:56:185 - info: [debug] [BaseDriver] Unzipping /var/folders/cq/4_2mn1h55q756rkxjrf4gs6h0000gs/T/2017119-20906-re68qs.mq2gldi/appium-app.zip
+2017-02-20 01:43:56:186 - info: [debug] [BaseDriver] Testing zip archive: /var/folders/cq/4_2mn1h55q756rkxjrf4gs6h0000gs/T/2017119-20906-re68qs.mq2gldi/appium-app.zip
+2017-02-20 01:43:59:264 - info: [BaseDriver] Unzipped local app to '/var/folders/cq/4_2mn1h55q756rkxjrf4gs6h0000gs/T/2017119-20906-re68qs.mq2gldi/Payload/Neon.app'
+2017-02-20 01:43:59:266 - info: [debug] [XCUITest] Checking whether app '/var/folders/cq/4_2mn1h55q756rkxjrf4gs6h0000gs/T/2017119-20906-re68qs.mq2gldi/Payload/Neon.app' is actually present
+2017-02-20 01:43:59:266 - info: [debug] [XCUITest] App is present
+2017-02-20 01:43:59:271 - info: [debug] [ios-app-utils] Getting bundle ID from app '/var/folders/cq/4_2mn1h55q756rkxjrf4gs6h0000gs/T/2017119-20906-re68qs.mq2gldi/Payload/Neon.app': 'br.com.Neon'
+2017-02-20 01:43:59:273 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2017-02-20 01:43:59:274 - info: [debug] [iOSLog] Found idevicesyslog: '/usr/local/bin/idevicesyslog'
+2017-02-20 01:43:59:416 - info: [XCUITest] Setting up real device
+2017-02-20 01:43:59:621 - info: [debug] [XCUITest] App is already installed.
+2017-02-20 01:43:59:621 - info: [debug] [XCUITest] Full reset not requested. No need to install.
+2017-02-20 01:43:59:622 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-02-20 01:43:59:622 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-02-20 01:43:59:623 - info: [XCUITest] Launching WebDriverAgent on the device
+2017-02-20 01:43:59:624 - info: [debug] [XCUITest] Carthage found: /usr/local/bin/carthage
+2017-02-20 01:43:59:625 - info: [debug] [XCUITest] Killing hanging processes
+2017-02-20 01:43:59:774 - info: [debug] [XCUITest] Using real device logger 'idevicesyslog'
+2017-02-20 01:43:59:776 - info: [debug] [XCUITest] Beginning test with command 'xcodebuild build test -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=08aa0d68a3cefcc79a4c60f81e19d63a19672ade -configuration Debug' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-02-20 01:43:59:859 - info: [debug] [XCUITest] Unable to get device time. Using local system time
+2017-02-20 01:43:59:859 - info: [debug] [XCUITest] Output from idevicedate: Sun Feb 19 22:43:59 BRT 2017
+
+2017-02-20 01:44:01:310 - info: [XCUITest] Waiting for WebDriverAgent to start on device
+2017-02-20 01:44:01:675 - info: [debug] [XCUITest] Log file for xcodebuild test: /Users/automacao/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Logs/Test/BEC3BA9D-0A62-4044-93BB-A4E5E00E39C9/Session-WebDriverAgentRunner-2017-02-19_224401-SBuLLD.log
+2017-02-20 01:44:07:441 - info: [debug] [WebDriverAgent] Device: Feb 19 22:44:07 iPhone XCTRunner[796] <Notice>: Running tests...
+2017-02-20 01:44:08:404 - info: [debug] [WebDriverAgent] Device: Feb 19 22:44:08 iPhone XCTRunner[796] <Notice>: Continuing to run tests in the background with task ID 1
+2017-02-20 01:44:09:113 - info: [XCUITest] Detected that WebDriverAgent is running at url 'http://192.168.0.4:8100'
+2017-02-20 01:44:09:114 - info: [XCUITest] WebDriverAgent started at url 'http://192.168.0.4:8100'
+2017-02-20 01:44:09:117 - info: [debug] [XCUITest] Starting iproxy to forward traffic from local port 8100 to device port 8100 over USB
+2017-02-20 01:44:14:127 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"br.com.Neon","arguments":[],"environment":{},"shouldWaitForQuiescence":true}}
+2017-02-20 01:44:17:110 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"4B62CA43-9787-4E33-AC45-D2DD2E26C239","capabilities":{"device":"iphone","browserName":"Neon","sdkVersion":"10.2.1","CFBundleIdentifier":"br.com.Neon"}},"sessionId":"4B62CA43-9787-4E33-AC45-D2DD2E26C239","status":0}
+2017-02-20 01:44:17:112 - info: [debug] [XCUITest] Setting initial orientation to 'PORTRAIT'
+2017-02-20 01:44:17:112 - info: [debug] [JSONWP Proxy] Proxying [POST /orientation] to [POST http://localhost:8100/session/4B62CA43-9787-4E33-AC45-D2DD2E26C239/orientation] with body: {"orientation":"PORTRAIT"}
+2017-02-20 01:44:17:889 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":{},"sessionId":"4B62CA43-9787-4E33-AC45-D2DD2E26C239","status":0}
+2017-02-20 01:44:17:890 - info: [Appium] New XCUITestDriver session created successfully, session 14508eb1-0292-40ce-9c9c-24dee955034e added to master session list
+2017-02-20 01:44:17:892 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"app":"/Users/automacao/Downloads/Neon.ipa","noReset":"True","newCommandTimeout":1000000,"platformVersion":"10.2","automationName":"XCUITest","platformName":"iOS","udid":"08aa0d68a3cefcc79a4c60f81e19d63a19672ade","deviceName":"iPhone 6"}
+2017-02-20 01:44:17:902 - info: [HTTP] <-- POST /wd/hub/session 200 22465 ms - 506 
+2017-02-20 01:44:17:963 - info: [HTTP] --> GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/window/current/size {}
+2017-02-20 01:44:17:966 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","14508eb1-0292-40ce-9c9c-24dee955034e"]
+2017-02-20 01:44:17:967 - info: [debug] [XCUITest] Executing command 'getWindowSize'
+2017-02-20 01:44:17:968 - info: [debug] [JSONWP Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8100/session/4B62CA43-9787-4E33-AC45-D2DD2E26C239/window/current/size] with no body
+2017-02-20 01:44:18:131 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"4B62CA43-9787-4E33-AC45-D2DD2E26C239\",\n  \"status\" : 0\n}"
+2017-02-20 01:44:18:133 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+2017-02-20 01:44:18:136 - info: [HTTP] <-- GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/window/current/size 200 172 ms - 98 
+2017-02-20 01:44:18:146 - info: [HTTP] --> POST /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/elements {"using":"class name","value":"UIAButton"}
+2017-02-20 01:44:18:147 - info: [debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["class name","UIAButton","14508eb1-0292-40ce-9c9c-24dee955034e"]
+2017-02-20 01:44:18:148 - info: [debug] [XCUITest] Executing command 'findElements'
+2017-02-20 01:44:18:149 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, accessibility id
+2017-02-20 01:44:18:150 - info: [XCUITest] Rewrote incoming selector from 'UIAButton' to 'XCUIElementTypeButton' to match XCUI type. You should consider updating your tests to use the new selectors directly
+2017-02-20 01:44:18:151 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2017-02-20 01:44:18:153 - info: [debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8100/session/4B62CA43-9787-4E33-AC45-D2DD2E26C239/elements] with body: {"using":"class name","value":"XCUIElementTypeButton"}
+2017-02-20 01:44:19:020 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"0996648C-C4C7-4498-AA1F-C23D562EF1D3","type":"XCUIElementTypeButton","label":"QUERO UMA CONTA!"},{"ELEMENT":"DDB19E02-365A-4029-A736-C2AF44EE6E59","type":"XCUIElementTypeButton","label":"JÁ TENHO CONTA"},{"ELEMENT":"73CF48D7-E02E-424C-A794-CD52D2336659","type":"XCUIElementTypeButton","label":"PRECISA DE AJUDA?"}],"sessionId":"4B62CA43-9787-4E33-AC45-D2DD2E26C239","status":0}
+2017-02-20 01:44:19:023 - info: [debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"0996648C-C4C7-4498-AA1F-C23D562EF1D3","type":"XCUIElementTypeButton","label":"QUERO UMA CONTA!"},{"ELEMENT":"DDB19E02-365A-4029-A736-C2AF44EE6E59","type":"XCUIElementTypeButton","label":"JÁ TENHO CONTA"},{"ELEMENT":"73CF48D7-E02E-424C-A794-CD52D2336659","type":"XCUIElementTypeButton","label":"PRECISA DE AJUDA?"}]
+2017-02-20 01:44:19:025 - info: [HTTP] <-- POST /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/elements 200 878 ms - 400 
+2017-02-20 01:44:49:025 - info: [debug] [iProxy] recv failed: Resource temporarily unavailable
+2017-02-20 01:44:49:026 - info: [debug] [iProxy] recv failed: Operation not permitted
+2017-02-20 01:46:06:184 - info: [HTTP] --> GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/value {}
+2017-02-20 01:46:06:186 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2017-02-20 01:46:06:186 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2017-02-20 01:46:06:188 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/value] to [GET http://localhost:8100/session/4B62CA43-9787-4E33-AC45-D2DD2E26C239/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/value] with body: {}
+2017-02-20 01:46:06:515 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : null,\n  \"sessionId\" : \"4B62CA43-9787-4E33-AC45-D2DD2E26C239\",\n  \"status\" : 0\n}"
+2017-02-20 01:46:06:516 - info: [JSONWP Proxy] Replacing sessionId 4B62CA43-9787-4E33-AC45-D2DD2E26C239 with 14508eb1-0292-40ce-9c9c-24dee955034e
+2017-02-20 01:46:06:518 - info: [HTTP] <-- GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/value 200 333 ms - 76 
+2017-02-20 01:46:19:113 - info: [HTTP] --> GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/label {}
+2017-02-20 01:46:19:115 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2017-02-20 01:46:19:116 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2017-02-20 01:46:19:117 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/label] to [GET http://localhost:8100/session/4B62CA43-9787-4E33-AC45-D2DD2E26C239/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/label] with body: {}
+2017-02-20 01:46:19:448 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"QUERO UMA CONTA!\",\n  \"sessionId\" : \"4B62CA43-9787-4E33-AC45-D2DD2E26C239\",\n  \"status\" : 0\n}"
+2017-02-20 01:46:19:449 - info: [JSONWP Proxy] Replacing sessionId 4B62CA43-9787-4E33-AC45-D2DD2E26C239 with 14508eb1-0292-40ce-9c9c-24dee955034e
+2017-02-20 01:46:19:451 - info: [HTTP] <-- GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/label 200 337 ms - 90 
+2017-02-20 01:46:38:040 - info: [HTTP] --> GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/name {}
+2017-02-20 01:46:38:041 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2017-02-20 01:46:38:041 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2017-02-20 01:46:38:043 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/name] to [GET http://localhost:8100/session/4B62CA43-9787-4E33-AC45-D2DD2E26C239/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/name] with body: {}
+2017-02-20 01:46:38:380 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"QUERO UMA CONTA!\",\n  \"sessionId\" : \"4B62CA43-9787-4E33-AC45-D2DD2E26C239\",\n  \"status\" : 0\n}"
+2017-02-20 01:46:38:380 - info: [JSONWP Proxy] Replacing sessionId 4B62CA43-9787-4E33-AC45-D2DD2E26C239 with 14508eb1-0292-40ce-9c9c-24dee955034e
+2017-02-20 01:46:38:382 - info: [HTTP] <-- GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/name 200 342 ms - 90 
+2017-02-20 01:47:08:381 - info: [debug] [iProxy] recv failed: Resource temporarily unavailable
+2017-02-20 01:47:08:382 - info: [debug] [iProxy] recv failed: Operation not permitted
+2017-02-20 01:47:52:561 - info: [HTTP] --> GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/name {}
+2017-02-20 01:47:52:563 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2017-02-20 01:47:52:563 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2017-02-20 01:47:52:567 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/name] to [GET http://localhost:8100/session/4B62CA43-9787-4E33-AC45-D2DD2E26C239/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/name] with body: {}
+2017-02-20 01:47:52:880 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"XCUIElementTypeButton\",\n  \"sessionId\" : \"4B62CA43-9787-4E33-AC45-D2DD2E26C239\",\n  \"status\" : 0\n}"
+2017-02-20 01:47:52:880 - info: [JSONWP Proxy] Replacing sessionId 4B62CA43-9787-4E33-AC45-D2DD2E26C239 with 14508eb1-0292-40ce-9c9c-24dee955034e
+2017-02-20 01:47:52:882 - info: [HTTP] <-- GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/name 200 320 ms - 95 
+2017-02-20 01:48:21:760 - info: [HTTP] --> GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/label {}
+2017-02-20 01:48:21:761 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2017-02-20 01:48:21:762 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2017-02-20 01:48:21:764 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/label] to [GET http://localhost:8100/session/4B62CA43-9787-4E33-AC45-D2DD2E26C239/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/label] with body: {}
+2017-02-20 01:48:22:083 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"QUERO UMA CONTA!\",\n  \"sessionId\" : \"4B62CA43-9787-4E33-AC45-D2DD2E26C239\",\n  \"status\" : 0\n}"
+2017-02-20 01:48:22:084 - info: [JSONWP Proxy] Replacing sessionId 4B62CA43-9787-4E33-AC45-D2DD2E26C239 with 14508eb1-0292-40ce-9c9c-24dee955034e
+2017-02-20 01:48:22:085 - info: [HTTP] <-- GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/label 200 325 ms - 90 
+2017-02-20 01:48:52:085 - info: [debug] [iProxy] recv failed: Resource temporarily unavailable
+2017-02-20 01:48:52:086 - info: [debug] [iProxy] recv failed: Operation not permitted
+2017-02-20 01:49:36:642 - info: [HTTP] --> GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/text {}
+2017-02-20 01:49:36:643 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2017-02-20 01:49:36:644 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2017-02-20 01:49:36:645 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/text] to [GET http://localhost:8100/session/4B62CA43-9787-4E33-AC45-D2DD2E26C239/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/text] with body: {}
+2017-02-20 01:49:37:086 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"QUERO UMA CONTA!\",\n  \"sessionId\" : \"4B62CA43-9787-4E33-AC45-D2DD2E26C239\",\n  \"status\" : 0\n}"
+2017-02-20 01:49:37:086 - info: [JSONWP Proxy] Replacing sessionId 4B62CA43-9787-4E33-AC45-D2DD2E26C239 with 14508eb1-0292-40ce-9c9c-24dee955034e
+2017-02-20 01:49:37:087 - info: [HTTP] <-- GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/text 200 444 ms - 90 
+2017-02-20 01:50:07:092 - info: [debug] [iProxy] recv failed: Resource temporarily unavailable
+2017-02-20 01:50:07:093 - info: [debug] [iProxy] recv failed: Operation not permitted
+2017-02-20 01:50:41:728 - info: [HTTP] --> GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/id {}
+2017-02-20 01:50:41:728 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2017-02-20 01:50:41:728 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2017-02-20 01:50:41:732 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/id] to [GET http://localhost:8100/session/4B62CA43-9787-4E33-AC45-D2DD2E26C239/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/id] with body: {}
+2017-02-20 01:50:42:083 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"[<XCElementSnapshot 0x17016c6c0> valueForUndefinedKey:]: this class is not key value coding-compliant for the key wdId.\\n\\n(\\n\\t0   CoreFoundation                      0x0000000183b211d0 <redacted> + 148\\n\\t1   libobjc.A.dylib                     0x000000018255855c objc_exception_throw + 56\\n\\t2   CoreFoundation                      0x0000000183b20e80 <redacted> + 0\\n\\t3   Foundation                          0x00000001845efd00 <redacted> + 248\\n\\t4   Foundation                          0x0000000184536af8 <redacted> + 264\\n\\t5   WebDriverAgentLib                   0x0000000103fa890c -[XCElementSnapshot(WebDriverAttributes) fb_valueForWDAttributeName:] + 128\\n\\t6   WebDriverAgentLib                   0x0000000103fb86d4 +[FBElementCommands handleGetAttribute:] + 408\\n\\t7   WebDriverAgentLib                   0x0000000103fa38f0 -[FBRoute_TargetAction mountRequest:intoResponse:] + 208\\n\\t8   WebDriverAgentLib                   0x0000000103f9b430 __37-[FBWebServer register...
+2017-02-20 01:50:42:084 - info: [JSONWP Proxy] Replacing sessionId 4B62CA43-9787-4E33-AC45-D2DD2E26C239 with 14508eb1-0292-40ce-9c9c-24dee955034e
+2017-02-20 01:50:42:086 - info: [HTTP] <-- GET /wd/hub/session/14508eb1-0292-40ce-9c9c-24dee955034e/element/0996648C-C4C7-4498-AA1F-C23D562EF1D3/attribute/id 200 358 ms - 4403 
+2017-02-20 01:51:12:084 - info: [debug] [iProxy] recv failed: Resource temporarily unavailable
+2017-02-20 01:51:12:085 - info: [debug] [iProxy] recv failed: Operation not permitted
